@@ -8,6 +8,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -19,40 +20,17 @@ public class StatsGenerator {
     private static final String SOLUTION_BASE_URL = "https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/";
 
     public static void generate() {
-        try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(PACKAGE_NAME.replace('.', '/'))) {
-            if (inputStream == null) {
-                return;
-            }
-
-            try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("README.md"), StandardOpenOption.TRUNCATE_EXISTING);
-                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
+            try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("README.md"), StandardOpenOption.TRUNCATE_EXISTING)) {
 
                 bufferedWriter.append("# GeeksforGeeks");
                 bufferedWriter.newLine();
-                bufferedWriter.append("Solving problems on GeeksforGeeks");
+                bufferedWriter.append("## Solving problems on GeeksforGeeks");
+                bufferedWriter.newLine();
+                bufferedWriter.append("### Solutions by difficulty");
 
-                Map<Difficulty, List<OutputGeeksForGeeksFormat>> difficultyListMap = bufferedReader.lines()
-                        .map(solution -> {
-                            String className = PACKAGE_NAME + "." + solution.substring(0, solution.lastIndexOf('.'));
+                List<OutputGeeksForGeeksFormat> solutions = findSolutions(PACKAGE_NAME);
 
-                            try {
-                                GeeksForGeeksInfo geeksForGeeksInfo = Class.forName(className).getAnnotation(GeeksForGeeksInfo.class);
-
-                                if (geeksForGeeksInfo != null) {
-                                    return OutputGeeksForGeeksFormat.builder()
-                                            .difficulty(geeksForGeeksInfo.difficulty())
-                                            .name(geeksForGeeksInfo.name())
-                                            .problemUrl(geeksForGeeksInfo.url())
-                                            .solutionUrl(SOLUTION_BASE_URL + solution.replace("class", "java"))
-                                            .build();
-                                }
-
-                                return null;
-                            } catch (ClassNotFoundException e) {
-                                return null;
-                            }
-                        })
-                        .filter(Predicate.not(Objects::isNull))
+                Map<Difficulty, List<OutputGeeksForGeeksFormat>> difficultyListMap = solutions.stream()
                         .collect(Collectors.groupingBy(OutputGeeksForGeeksFormat::getDifficulty));
 
                 for (Difficulty difficulty : difficultyListMap.keySet()) {
@@ -79,11 +57,47 @@ public class StatsGenerator {
                     }
                     bufferedWriter.append("</details>");
                 }
+            } catch (IOException ignored) {}
+    }
+
+    private static List<OutputGeeksForGeeksFormat> findSolutions(String packageName) {
+        List<OutputGeeksForGeeksFormat> solutionsList = new ArrayList<>();
+
+        try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(packageName.replace('.', '/'))) {
+            if (inputStream == null) {
+                return solutionsList;
             }
 
-        } catch (IOException ignored) {
+            try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
+                solutionsList = bufferedReader.lines()
+                        .map(solution -> {
+                            String className = packageName + "." + solution.substring(0, solution.lastIndexOf('.'));
 
+                            try {
+                                GeeksForGeeksInfo geeksForGeeksInfo = Class.forName(className).getAnnotation(GeeksForGeeksInfo.class);
+
+                                if (geeksForGeeksInfo != null) {
+                                    return OutputGeeksForGeeksFormat.builder()
+                                            .difficulty(geeksForGeeksInfo.difficulty())
+                                            .name(geeksForGeeksInfo.name())
+                                            .problemUrl(geeksForGeeksInfo.url())
+                                            .solutionUrl(SOLUTION_BASE_URL + solution.replace("class", "java"))
+                                            .build();
+                                }
+
+                                return null;
+                            } catch (ClassNotFoundException e) {
+                                return null;
+                            }
+                        })
+                        .filter(Predicate.not(Objects::isNull))
+                        .collect(Collectors.toList());
+            }
+        } catch (IOException e) {
+            return solutionsList;
         }
+
+        return solutionsList;
     }
 
     @Builder

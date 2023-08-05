@@ -1,5 +1,6 @@
 # GeeksforGeeks
-Solving problems on GeeksforGeeks
+## Solving problems on GeeksforGeeks
+### Solutions by difficulty
 <details>
 <summary>SCHOOL</summary>
 
