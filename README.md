@@ -69,5 +69,6 @@
 
 |Name|Problem|Solution|
 |---|---|---|
+|Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
 </details>
