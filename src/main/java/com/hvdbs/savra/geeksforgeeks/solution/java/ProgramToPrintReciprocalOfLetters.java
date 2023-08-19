@@ -9,6 +9,8 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
         url = "https://practice.geeksforgeeks.org/problems/program-to-print-reciprocal-of-letters36233623/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
 )
 public class ProgramToPrintReciprocalOfLetters {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     static String reciprocalString(String S) {
         StringBuilder sb = new StringBuilder();
 
