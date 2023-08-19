@@ -64,3 +64,10 @@
 |Upper case conversion|<a href='https://practice.geeksforgeeks.org/problems/upper-case-conversion5419/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Upper case conversion</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UpperCaseConversion.java'>Upper case conversion</a>|
 |Value equal to index value|<a href='https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Value equal to index value</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ValueEqualToIndexValue.java'>Value equal to index value</a>|
 </details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
+</details>
