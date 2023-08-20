@@ -9,6 +9,9 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
         url = "https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
 )
 public class FindMinimumAndMaximumElementInAnArray {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(1)
+
     class Pair
     {
         long first, second;
