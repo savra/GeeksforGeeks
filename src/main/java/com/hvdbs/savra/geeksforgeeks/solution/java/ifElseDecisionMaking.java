@@ -11,7 +11,7 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
 public class ifElseDecisionMaking {
     //My Time Complexity: O(1)
     //My Space complexity: O(1)
-    static String compareNM(int n,int m){
+    static String compareNM(int n, int m) {
         if (n == m) {
             return "equal";
         } else if (n < m) {
