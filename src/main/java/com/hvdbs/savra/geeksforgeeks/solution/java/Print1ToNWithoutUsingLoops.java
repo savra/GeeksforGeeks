@@ -10,7 +10,7 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
 )
 public class Print1ToNWithoutUsingLoops {
     //My Time Complexity: O(n)
-    //My Space complexity: O(1)
+    //My Space complexity: O(n)
     static void printTillN(int N){
         printN(1, N);
     }
