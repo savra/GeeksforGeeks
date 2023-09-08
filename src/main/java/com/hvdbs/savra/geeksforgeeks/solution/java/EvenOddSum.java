@@ -11,7 +11,7 @@ import java.util.ArrayList;
         url = "https://practice.geeksforgeeks.org/problems/even-odd-sum5450/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
 )
 public class EvenOddSum {
-    //My Time Complexity: O(1)
+    //My Time Complexity: O(n)
     //My Space complexity: O(1)
     ArrayList<Integer> EvenOddSum(int N, int Arr[]) {
         ArrayList<Integer> result = new ArrayList<>();
