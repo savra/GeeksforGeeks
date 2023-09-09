@@ -8,7 +8,7 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
         difficulty = Difficulty.SCHOOL)
 public class FindIndex {
     static int[] findIndex(int a[], int N, int key) {
-        int[] result = new int[]{-1, -1};
+        int[] result = new int[] {-1, -1};
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] == key) {
