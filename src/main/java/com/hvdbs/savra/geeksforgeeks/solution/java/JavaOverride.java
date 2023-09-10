@@ -12,7 +12,9 @@ public class JavaOverride extends Parent {
     //My Time Complexity: O(1)
     //My Space complexity: O(1)
     @Override
-    void show(int p) { System.out.print(p+" "); }
+    void show(int p) {
+        System.out.print(p + " ");
+    }
 
     @Override
     void print(int q) {
