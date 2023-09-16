@@ -2,16 +2,6 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
-|Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
-|Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
-|Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
-</details>
-<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|
@@ -106,6 +96,7 @@
 |Sum of Digit is Pallindrome or not|<a href='https://practice.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not2751/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Sum of Digit is Pallindrome or not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfDigitIsPallindromeOrNot.java'>Sum of Digit is Pallindrome or not</a>|
 |Sum Of Digits|<a href='https://practice.geeksforgeeks.org/problems/sum-of-digits1742/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Sum Of Digits</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfDigits.java'>Sum Of Digits</a>|
 |Sum of elements in a matrix|<a href='https://practice.geeksforgeeks.org/problems/sum-of-elements-in-a-matrix2000/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Sum of elements in a matrix</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfElementsInAMatrix.java'>Sum of elements in a matrix</a>|
+|Sum of GP|<a href='https://practice.geeksforgeeks.org/problems/sum-of-gp2120/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Sum of GP</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfGP.java'>Sum of GP</a>|
 |Sum of odd and even elements|<a href='https://practice.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Sum of odd and even elements</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfOddAndEvenElements.java'>Sum of odd and even elements</a>|
 |Sum of Series|<a href='https://practice.geeksforgeeks.org/problems/sum-of-series2811/1?page=1&difficulty'>Sum of Series</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfSeries.java'>Sum of Series</a>|
 |Surface Area and Volume of Cuboid|<a href='https://practice.geeksforgeeks.org/problems/surface-area-and-volume-of-cuboid0522/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Surface Area and Volume of Cuboid</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SurfaceAreaAndVolumeOfCuboid.java'>Surface Area and Volume of Cuboid</a>|
@@ -116,4 +107,14 @@
 |Upper case conversion|<a href='https://practice.geeksforgeeks.org/problems/upper-case-conversion5419/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Upper case conversion</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UpperCaseConversion.java'>Upper case conversion</a>|
 |Value equal to index value|<a href='https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Value equal to index value</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ValueEqualToIndexValue.java'>Value equal to index value</a>|
 |Vowel or Not|<a href='https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Vowel or Not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
+|Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
+|Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
+|Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
 </details>
