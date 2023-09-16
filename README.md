@@ -2,6 +2,17 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Binary Search|<a href='https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Binary Search</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BinarySearch.java'>Binary Search</a>|
+|Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
+|Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
+|Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
+|Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
+</details>
+<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|
@@ -117,14 +128,4 @@
 |Upper case conversion|<a href='https://practice.geeksforgeeks.org/problems/upper-case-conversion5419/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Upper case conversion</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UpperCaseConversion.java'>Upper case conversion</a>|
 |Value equal to index value|<a href='https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Value equal to index value</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ValueEqualToIndexValue.java'>Value equal to index value</a>|
 |Vowel or Not|<a href='https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Vowel or Not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|
-</details>
-<details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
-|Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
-|Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
-|Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
 </details>
