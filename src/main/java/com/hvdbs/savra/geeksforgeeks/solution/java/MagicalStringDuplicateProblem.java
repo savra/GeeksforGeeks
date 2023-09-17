@@ -12,6 +12,8 @@ import java.util.Map;
         url = "https://practice.geeksforgeeks.org/problems/magical-string3653/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
 )
 public class MagicalStringDuplicateProblem {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     static String magicalString(String S) {
         Map<Character, Character> m = new HashMap<>();
 
