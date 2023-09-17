@@ -2,13 +2,6 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
-<summary>EASY</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
-</details>
-<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|
@@ -18,11 +11,19 @@
 |Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
 |Game with nos|<a href='https://practice.geeksforgeeks.org/problems/game-with-nos3123/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Game with nos</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/GameWithNos.java'>Game with nos</a>|
 |Matching Pair|<a href='https://practice.geeksforgeeks.org/problems/matching-pair5320/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Matching Pair</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MatchingPair.java'>Matching Pair</a>|
+|Midori and chocolates|<a href='https://practice.geeksforgeeks.org/problems/midori-and-chocolates2438/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Midori and chocolates</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MidoriAndChocolates.java'>Midori and chocolates</a>|
 |Queue Reversal|<a href='https://practice.geeksforgeeks.org/problems/queue-reversal/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Queue Reversal</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueReversal.java'>Queue Reversal</a>|
 |Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
 |Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
 |Sum of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Sum of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
+</details>
+<details>
+<summary>EASY</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
 </details>
 <details>
 <summary>SCHOOL</summary>
