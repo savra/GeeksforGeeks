@@ -119,13 +119,6 @@
 |Vowel or Not|<a href='https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Vowel or Not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|
 </details>
 <details>
-<summary>EASY</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
-</details>
-<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|
@@ -146,9 +139,17 @@
 |Postorder Traversal|<a href='https://practice.geeksforgeeks.org/problems/postorder-traversal/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Postorder Traversal</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PostorderTraversal.java'>Postorder Traversal</a>|
 |Queue Push & Pop|<a href='https://practice.geeksforgeeks.org/problems/queue-designer/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Queue Push & Pop</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueuePushPop.java'>Queue Push & Pop</a>|
 |Queue Reversal|<a href='https://practice.geeksforgeeks.org/problems/queue-reversal/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Queue Reversal</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueReversal.java'>Queue Reversal</a>|
+|Red OR Green|<a href='https://practice.geeksforgeeks.org/problems/red-or-green5711/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Red OR Green</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/RedOrGreen.java'>Red OR Green</a>|
 |Reverse a String|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-string/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Reverse a String</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseString.java'>Reverse a String</a>|
 |Searching a number|<a href='https://practice.geeksforgeeks.org/problems/searching-a-number0324/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Searching a number</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SearchingANumber.java'>Searching a number</a>|
 |Size of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/size-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Size of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SizeOfBinaryTree.java'>Size of Binary Tree</a>|
 |Sum of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Sum of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
+</details>
+<details>
+<summary>EASY</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
 </details>
