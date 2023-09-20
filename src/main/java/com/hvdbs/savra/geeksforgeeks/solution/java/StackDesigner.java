@@ -4,7 +4,6 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
 import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.Stack;
 
 @GeeksForGeeksInfo(
