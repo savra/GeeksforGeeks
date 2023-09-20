@@ -10,6 +10,6 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
 )
 public class BitDifference {
     public static int countBitsFlip(int a, int b) {
-        return Integer.bitCount(a | b);
+        return Integer.bitCount(a ^ b);
     }
 }

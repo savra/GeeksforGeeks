@@ -2,6 +2,13 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
+<summary>EASY</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
+</details>
+<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|
@@ -140,11 +147,4 @@
 |Size of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/size-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Size of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SizeOfBinaryTree.java'>Size of Binary Tree</a>|
 |Sum of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Sum of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
-</details>
-<details>
-<summary>EASY</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
 </details>
