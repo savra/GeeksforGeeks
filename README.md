@@ -2,22 +2,6 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
-</details>
-<details>
-<summary>EASY</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
-|Common elements|<a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Common elements</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/CommonElements.java'>Common elements</a>|
-|Leaders in an array|<a href='https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Leaders in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/LeadersInAnArray.java'>Leaders in an array</a>|
-</details>
-<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|
@@ -163,4 +147,21 @@
 |Stack designer|<a href='https://practice.geeksforgeeks.org/problems/stack-designer/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Stack designer</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/StackDesigner.java'>Stack designer</a>|
 |Sum of Binary Tree|<a href='https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Sum of Binary Tree</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
+</details>
+<details>
+<summary>EASY</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|BigInteger Multiply|<a href='https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy'>BigInteger Multiply</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BigIntegerMultiply.java'>BigInteger Multiply</a>|
+|Common elements|<a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Common elements</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/CommonElements.java'>Common elements</a>|
+|Equilibrium Point|<a href='https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Equilibrium Point</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/EquilibriumPoint.java'>Equilibrium Point</a>|
+|Leaders in an array|<a href='https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Leaders in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/LeadersInAnArray.java'>Leaders in an array</a>|
+</details>
+<details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
 </details>
