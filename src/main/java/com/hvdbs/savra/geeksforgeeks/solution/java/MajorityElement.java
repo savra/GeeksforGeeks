@@ -10,6 +10,8 @@ import java.util.Map;
         url = "https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab"
 )
 public class MajorityElement {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     static int majorityElement(int a[], int size) {
         java.util.Map<Integer, Integer> res = new java.util.HashMap<>();
 
