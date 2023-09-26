@@ -13,13 +13,15 @@ public class FindTheSumOfLastNNodesOfTheLinkedList {
         int data;
         Node next;
 
-        public Node (int data){
+        public Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    public int sum(Node head, int k){
+    //My Time Complexity: O(n)
+    //My Space complexity: O(1)
+    public int sum(Node head, int k) {
         Node first = head;
         Node second = head;
         int sum = 0;
