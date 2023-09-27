@@ -19,6 +19,8 @@ public class CheckIfCircularLinkedList {
         }
     }
 
+    //My Time Complexity: O(n)
+    //My Space complexity: O(1)
     boolean isCircular(Node head) {
         if (head == null) {
             return true;
