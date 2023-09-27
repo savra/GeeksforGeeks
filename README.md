@@ -119,6 +119,13 @@
 |Vowel or Not|<a href='https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Vowel or Not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|
 </details>
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
+</details>
+<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|
@@ -133,6 +140,7 @@
 |Find the Sum of Last N nodes of the Linked List|<a href='https://practice.geeksforgeeks.org/problems/find-the-sum-of-last-n-nodes-of-the-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Find the Sum of Last N nodes of the Linked List</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindTheSumOfLastNNodesOfTheLinkedList.java'>Find the Sum of Last N nodes of the Linked List</a>|
 |Game with nos|<a href='https://practice.geeksforgeeks.org/problems/game-with-nos3123/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Game with nos</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/GameWithNos.java'>Game with nos</a>|
 |Java Generic Class|<a href='https://practice.geeksforgeeks.org/problems/java-generic-class/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Java Generic Class</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/JavaGenericClass.java'>Java Generic Class</a>|
+|Linked List Length Even or Odd?|<a href='https://practice.geeksforgeeks.org/problems/linked-list-length-even-or-odd/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Linked List Length Even or Odd?</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/LinkedListLengthEvenOrOdd.java'>Linked List Length Even or Odd?</a>|
 |Magical String[Duplicate Problem]|<a href='https://practice.geeksforgeeks.org/problems/magical-string3653/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Magical String[Duplicate Problem]</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MagicalStringDuplicateProblem.java'>Magical String[Duplicate Problem]</a>|
 |Matching Pair|<a href='https://practice.geeksforgeeks.org/problems/matching-pair5320/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Matching Pair</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MatchingPair.java'>Matching Pair</a>|
 |Midori and chocolates|<a href='https://practice.geeksforgeeks.org/problems/midori-and-chocolates2438/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Midori and chocolates</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MidoriAndChocolates.java'>Midori and chocolates</a>|
@@ -162,11 +170,4 @@
 |Common elements|<a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Common elements</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/CommonElements.java'>Common elements</a>|
 |Equilibrium Point|<a href='https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Equilibrium Point</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/EquilibriumPoint.java'>Equilibrium Point</a>|
 |Leaders in an array|<a href='https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article'>Leaders in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/LeadersInAnArray.java'>Leaders in an array</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
 </details>
