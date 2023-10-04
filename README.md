@@ -2,6 +2,13 @@
 ## Solving problems on GeeksforGeeks
 ### Solutions by difficulty
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
+</details>
+<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|
@@ -119,13 +126,6 @@
 |Vowel or Not|<a href='https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions'>Vowel or Not</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|
 </details>
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
-</details>
-<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|
@@ -138,6 +138,7 @@
 |Count zeros in a sorted matrix|<a href='https://practice.geeksforgeeks.org/problems/count-zeros-in-a-sorted-matrix/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Count zeros in a sorted matrix</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/CountZerosInASortedMatrix.java'>Count zeros in a sorted matrix</a>|
 |Delete Alternate Nodes|<a href='https://practice.geeksforgeeks.org/problems/delete-alternate-nodes/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Delete Alternate Nodes</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/DeleteAlternateNodes.java'>Delete Alternate Nodes</a>|
 |Find minimum and maximum element in an array|<a href='https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Find minimum and maximum element in an array</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindMinimumAndMaximumElementInAnArray.java'>Find minimum and maximum element in an array</a>|
+|Find n/k th node in Linked list|<a href='https://practice.geeksforgeeks.org/problems/find-nk-th-node-in-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Find n/k th node in Linked list</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindNkThNodeInLinkedList.java'>Find n/k th node in Linked list</a>|
 |Find the Sum of Last N nodes of the Linked List|<a href='https://practice.geeksforgeeks.org/problems/find-the-sum-of-last-n-nodes-of-the-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Find the Sum of Last N nodes of the Linked List</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FindTheSumOfLastNNodesOfTheLinkedList.java'>Find the Sum of Last N nodes of the Linked List</a>|
 |Game with nos|<a href='https://practice.geeksforgeeks.org/problems/game-with-nos3123/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy'>Game with nos</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/GameWithNos.java'>Game with nos</a>|
 |Identical Linked Lists|<a href='https://practice.geeksforgeeks.org/problems/identical-linked-lists/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Identical Linked Lists</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/IdenticalLinkedLists.java'>Identical Linked Lists</a>|
