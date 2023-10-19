@@ -6,7 +6,7 @@ import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
 import java.util.PriorityQueue;
 
 @GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+        difficulty = Difficulty.EASY,
         name = "Operations on PriorityQueue",
         url = "https://practice.geeksforgeeks.org/problems/operations-on-priorityqueue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"
 )
