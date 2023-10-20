@@ -17,7 +17,6 @@ public class MinimumCostOfRopes {
         }
 
         java.util.Arrays.sort(arr);
-
         java.util.Queue<Long> q = new java.util.PriorityQueue<>(Comparator.naturalOrder());
 
         for (long i : arr) {
