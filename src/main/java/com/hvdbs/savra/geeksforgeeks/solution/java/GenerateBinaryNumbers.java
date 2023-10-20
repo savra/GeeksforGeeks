@@ -11,6 +11,7 @@ import java.util.ArrayList;
         url = "https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"
 )
 public class GenerateBinaryNumbers {
+    //TC: O(N * LogN), SC: O(1)
     static ArrayList<String> generate(int N) {
         ArrayList<String> res = new ArrayList<>();
 
