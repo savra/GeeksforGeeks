@@ -169,6 +169,13 @@
 |Union of two arrays|<a href='https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions'>Union of two arrays</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|
 </details>
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -188,13 +195,7 @@
 |Operations on PriorityQueue|<a href='https://practice.geeksforgeeks.org/problems/operations-on-priorityqueue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy'>Operations on PriorityQueue</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/OperationsOnPriorityQueue.java'>Operations on PriorityQueue</a>|
 |Queue using stack|<a href='https://practice.geeksforgeeks.org/problems/queue-using-stack/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy'>Queue using stack</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueUsingStack.java'>Queue using stack</a>|
 |Queue using two Stacks|<a href='https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy'>Queue using two Stacks</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueUsingTwoStacks.java'>Queue using two Stacks</a>|
+|Reverse a linked list|<a href='https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy'>Reverse a linked list</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseALinkedList.java'>Reverse a linked list</a>|
 |Reverse First K elements of Queue|<a href='https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy'>Reverse First K elements of Queue</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseFirstKElementsOfQueue.java'>Reverse First K elements of Queue</a>|
 |Stack using two queues|<a href='https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy'>Stack using two queues</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/StackUsingTwoQueues.java'>Stack using two queues</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Majority Element|<a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab'>Majority Element</a>|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|
 </details>
