@@ -20,7 +20,7 @@
         <dependency>
             <groupId>com.hvdbs.savra</groupId>
             <artifactId>stats-generator-spring-boot-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
