@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(name = "Find Index",
+@CodeInfo(name = "Find Index",
         url = "https://practice.geeksforgeeks.org/problems/find-index4752/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
         difficulty = Difficulty.SCHOOL)
 public class FindIndex {

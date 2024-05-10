@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(url = "https://practice.geeksforgeeks.org/problems/remainder-evaluation3755/1?page=1&difficulty[]=-2&sortBy=accuracy",
+@CodeInfo(url = "https://practice.geeksforgeeks.org/problems/remainder-evaluation3755/1?page=1&difficulty[]=-2&sortBy=accuracy",
         name = "Remainder Evaluation",
         difficulty = Difficulty.SCHOOL)
 public class RemainderEvaluation {

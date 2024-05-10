@@ -1,12 +1,12 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         name = "Max Level Sum in Binary Tree",
         difficulty = Difficulty.EASY,
         url = "https://practice.geeksforgeeks.org/problems/max-level-sum-in-binary-tree--170647/1?page=1&category=Binary%20Search&difficulty=School,Basic,Easy&status=unsolved&sortBy=accuracy")

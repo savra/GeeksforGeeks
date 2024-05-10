@@ -1,19 +1,17 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Magical String[Duplicate Problem]",
-        url = "https://practice.geeksforgeeks.org/problems/magical-string3653/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/magical-string3653/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class MagicalStringDuplicateProblem {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     static String magicalString(String S) {
         Map<Character, Character> m = new HashMap<>();
 
@@ -46,7 +44,7 @@ public class MagicalStringDuplicateProblem {
 
         StringBuilder sb = new StringBuilder();
 
-        for(int i = 0; i < S.length(); i++) {
+        for (int i = 0; i < S.length(); i++) {
             sb.append(m.get(S.charAt(i)));
         }
 

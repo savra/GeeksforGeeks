@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Perfect Number",
-        url = "https://practice.geeksforgeeks.org/problems/perfect-number3759/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/perfect-number3759/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(LogN * N)",
+        spaceComplexity = "O(1)")
 public class PerfectNumber {
-    //My Time Complexity: O(LogN * N)
-    //My Space complexity: O(1)
     int isPerfect(int N) {
         int tmp = N;
         int sum = 0;

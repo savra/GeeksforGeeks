@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Count Leaves in Binary Tree",
-        url = "https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class CountLeavesInBinaryTree {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     int countLeaves(Node node) {
         if (node == null) {
             return 0;
@@ -29,8 +27,7 @@ public class CountLeavesInBinaryTree {
     }
 }
 
-class Node
-{
+class Node {
     int data;
     Node left, right;
 }

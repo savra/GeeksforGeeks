@@ -1,15 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Sum of GP",
-        url = "https://practice.geeksforgeeks.org/problems/sum-of-gp2120/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions")
+        url = "https://practice.geeksforgeeks.org/problems/sum-of-gp2120/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class SumOfGP {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public long sum_of_gp(long n, long a, long r) {
         long result = 0;
 

@@ -1,17 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "1s Complement",
-        url = "https://practice.geeksforgeeks.org/problems/1s-complement2819/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/1s-complement2819/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class FirstComplement {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
-    static String onesComplement(String S,int N){
+    static String onesComplement(String S, int N) {
         char[] tmp = new char[N];
 
         for (int i = 0; i < S.length(); i++) {

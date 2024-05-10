@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Binary matrix having maximum number of 1s",
         url = "https://practice.geeksforgeeks.org/problems/binary-matrix-having-maximum-number-of-1s--170647/1?page=1&category=Binary%20Search&difficulty=School,Basic,Easy&status=unsolved&sortBy=accuracy")

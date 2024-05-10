@@ -1,19 +1,17 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Leaders in an array",
-        url = "https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article"
-)
+        url = "https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class LeadersInAnArray {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
-    static ArrayList<Integer> leaders(int arr[], int n){
+    static ArrayList<Integer> leaders(int arr[], int n) {
         int max = arr[arr.length - 1];
 
         ArrayList<Integer> res = new ArrayList<>();

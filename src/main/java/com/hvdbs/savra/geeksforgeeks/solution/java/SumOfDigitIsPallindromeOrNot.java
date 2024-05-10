@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Sum of Digit is Pallindrome or not",
-        url = "https://practice.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not2751/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/sum-of-digit-is-pallindrome-or-not2751/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(LogN)",
+        spaceComplexity = "O(LogN)")
 public class SumOfDigitIsPallindromeOrNot {
-    //My Time Complexity: O(logN)
-    //My Space complexity: O(logN)
     int isDigitSumPalindrome(int N) {
         int sum = 0;
 

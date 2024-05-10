@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Reverse digits",
-        url = "https://practice.geeksforgeeks.org/problems/reverse-digit0316/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/reverse-digit0316/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(LogN)")
 public class ReverseDigits {
-    //My Time Complexity: O(logN)
-    //My Space complexity: O(1)
     public long reverse_digit(long n) {
         StringBuilder res = new StringBuilder();
 

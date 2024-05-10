@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Parallel or Perpendicular?",
         url = "https://practice.geeksforgeeks.org/problems/parallel-or-perpendicular4257/1?page=4&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"

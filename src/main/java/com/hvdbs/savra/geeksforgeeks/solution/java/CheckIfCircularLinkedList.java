@@ -1,13 +1,13 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Check If Circular Linked List",
-        url = "https://practice.geeksforgeeks.org/problems/circular-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/circular-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class CheckIfCircularLinkedList {
     class Node {
         int data;
@@ -19,8 +19,6 @@ public class CheckIfCircularLinkedList {
         }
     }
 
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     boolean isCircular(Node head) {
         if (head == null) {
             return true;

@@ -1,17 +1,16 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
+
 import java.util.Map;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.MEDIUM,
+@CodeInfo(difficulty = Difficulty.MEDIUM,
         name = "Majority Element",
-        url = "https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab"
-)
+        url = "https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class MajorityElement {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     static int majorityElement(int a[], int size) {
         java.util.Map<Integer, Integer> res = new java.util.HashMap<>();
 
@@ -28,6 +27,6 @@ public class MajorityElement {
     }
 
     public static void main(String[] args) {
-        majorityElement(new int[] {3, 1, 3, 3, 2}, 5);
+        majorityElement(new int[]{3, 1, 3, 3, 2}, 5);
     }
 }

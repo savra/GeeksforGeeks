@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Front-Back Transformation - copy",
-        url = "https://practice.geeksforgeeks.org/problems/front-back-transformation1659/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/front-back-transformation1659/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class FrontBackTransformationCopy {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     String convert(String s) {
         int charPosition;
         StringBuilder sb = new StringBuilder();
@@ -18,10 +16,10 @@ public class FrontBackTransformationCopy {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) >= 'A' && s.charAt(i) <= 'Z') {
                 charPosition = s.charAt(i) - 'A';
-                sb.append((char)('Z' - charPosition));
+                sb.append((char) ('Z' - charPosition));
             } else {
                 charPosition = s.charAt(i) - 'a';
-                sb.append((char)('z' - charPosition));
+                sb.append((char) ('z' - charPosition));
             }
         }
 

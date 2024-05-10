@@ -1,13 +1,13 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Sum of Binary Tree",
-        url = "https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class SumOfBinaryTree {
     static class Node {
         int data;
@@ -19,8 +19,6 @@ public class SumOfBinaryTree {
         }
     }
 
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     static int sumBT(Node head) {
         if (head == null) {
             return 0;

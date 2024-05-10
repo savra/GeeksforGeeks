@@ -1,16 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Sum of odd and even elements",
-        url = "https://practice.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/sum-of-odd-and-even-elements3033/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class SumOfOddAndEvenElements {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public int[] find_sum(int n) {
         int[] res = new int[2];
 

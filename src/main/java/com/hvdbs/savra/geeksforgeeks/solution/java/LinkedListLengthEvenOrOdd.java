@@ -1,22 +1,25 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.BASIC,
         name = "Linked List Length Even or Odd?",
-        url = "https://practice.geeksforgeeks.org/problems/linked-list-length-even-or-odd/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/linked-list-length-even-or-odd/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class LinkedListLengthEvenOrOdd {
-    class Node
-    {
+    class Node {
         int data;
         Node next;
-        Node(int d) {data = d; next = null; }
+
+        Node(int d) {
+            data = d;
+            next = null;
+        }
     }
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
+
     int isLengthEvenorOdd(Node head1) {
         int i = 0;
 

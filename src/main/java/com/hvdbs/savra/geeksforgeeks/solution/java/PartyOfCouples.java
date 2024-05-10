@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(name = "Party of Couples", difficulty = Difficulty.SCHOOL,
+@CodeInfo(name = "Party of Couples", difficulty = Difficulty.SCHOOL,
 url = "https://practice.geeksforgeeks.org/problems/alone-in-couple5507/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions")
 public class PartyOfCouples {
     static int findSingle(int N, int arr[]){

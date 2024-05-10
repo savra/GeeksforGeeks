@@ -1,17 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Multiply Array",
-        url = "https://practice.geeksforgeeks.org/problems/multiply-array-1658312632/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/multiply-array-1658312632/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class MultiplyArray {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
-    public static int product(int arr[], int n){
+    public static int product(int arr[], int n) {
         int res = 1;
 
         for (int i = 0; i < n; i++) {

@@ -1,1 +1,6 @@
-
+stats-generator:
+  enable: true
+  github-repository-base-url: https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution
+  language:
+    java: true
+  solution-package-name: com.hvdbs.savra.geeksforgeeks.solution

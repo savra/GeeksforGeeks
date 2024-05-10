@@ -1,16 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.BASIC,
         name = "Binary Search",
-        url = "https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article"
-)
+        url = "https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(LogN)")
 public class BinarySearch {
-    //My Time Complexity: O(LogN)
-    //My Space complexity: O(1)
     int binarySearch(int arr[], int n, int k) {
         int lo = 0;
         int ho = n - 1;

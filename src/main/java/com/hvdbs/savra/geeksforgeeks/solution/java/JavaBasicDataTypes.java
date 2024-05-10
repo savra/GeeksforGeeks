@@ -1,10 +1,10 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 import java.util.Scanner;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Java Basic Data Types",
         url = "https://practice.geeksforgeeks.org/problems/java-basic-data-types0041/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"

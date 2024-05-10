@@ -1,11 +1,11 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@GeeksForGeeksInfo(name = "At least two greater elements",
+@CodeInfo(name = "At least two greater elements",
         difficulty = Difficulty.SCHOOL,
         url = "https://practice.geeksforgeeks.org/problems/at-least-two-greater-elements4625/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions")
 public class AtLeastTwoGreaterElements {

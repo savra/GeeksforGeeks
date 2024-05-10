@@ -1,18 +1,16 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Extract the integers",
-        url = "https://practice.geeksforgeeks.org/problems/extract-the-integers4428/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/extract-the-integers4428/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class ExtractTheIntegers {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     ArrayList<String> extractIntegerWords(String s) {
         ArrayList<String> result = new ArrayList<>();
 

@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Count zeros in a sorted matrix",
-        url = "https://practice.geeksforgeeks.org/problems/count-zeros-in-a-sorted-matrix/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/count-zeros-in-a-sorted-matrix/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1)")
 public class CountZerosInASortedMatrix {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     int countZeros(int A[][], int N) {
         int res = 0;
 

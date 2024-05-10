@@ -1,17 +1,16 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Generate Binary Numbers",
-        url = "https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(1)")
 public class GenerateBinaryNumbers {
-    //TC: O(N * LogN), SC: O(1)
     static ArrayList<String> generate(int N) {
         ArrayList<String> res = new ArrayList<>();
 

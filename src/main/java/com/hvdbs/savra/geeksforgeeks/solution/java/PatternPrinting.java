@@ -1,16 +1,14 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Pattern Printing",
-        url = "https://practice.geeksforgeeks.org/problems/pattern-printing1347/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/pattern-printing1347/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class PatternPrinting {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     static void printPattern(int N) {
         StringBuilder result = new StringBuilder();
         StringBuilder tmp = new StringBuilder();

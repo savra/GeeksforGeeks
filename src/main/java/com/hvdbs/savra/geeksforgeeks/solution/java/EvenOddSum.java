@@ -1,24 +1,22 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Even Odd Sum",
-        url = "https://practice.geeksforgeeks.org/problems/even-odd-sum5450/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/even-odd-sum5450/1?page=3&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class EvenOddSum {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     ArrayList<Integer> EvenOddSum(int N, int Arr[]) {
         ArrayList<Integer> result = new ArrayList<>();
         int sumOdd = 0;
         int sumEven = 0;
 
-        for(int i = 0; i < Arr.length; i++) {
+        for (int i = 0; i < Arr.length; i++) {
             if ((i + 1) % 2 == 0) {
                 sumEven += Arr[i];
             } else {

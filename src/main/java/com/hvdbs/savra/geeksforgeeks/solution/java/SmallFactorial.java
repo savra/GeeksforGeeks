@@ -1,16 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Small Factorial",
-        url = "https://practice.geeksforgeeks.org/problems/small-factorial0854/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/small-factorial0854/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class SmallFactorial {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public long find_fact(int n) {
         long res = 1;
 

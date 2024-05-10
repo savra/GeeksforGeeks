@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Occurence of an integer in a Linked List",
         url = "https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy"

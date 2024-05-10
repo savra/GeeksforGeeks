@@ -1,11 +1,11 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.Stack;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Queue using two Stacks",
         url = "https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"

@@ -1,18 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Count type of Characters",
-        url = "https://practice.geeksforgeeks.org/problems/count-type-of-characters3635/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/count-type-of-characters3635/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class CountTypeOfCharacters {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
-
-    int[] count (String s) {
+    int[] count(String s) {
         int[] result = new int[4];
         int initialLength = s.length();
 

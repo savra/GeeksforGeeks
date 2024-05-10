@@ -1,17 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.SCHOOL,
+@CodeInfo(difficulty = Difficulty.SCHOOL,
         name = "Full Prime",
-        url = "https://practice.geeksforgeeks.org/problems/full-prime2659/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/full-prime2659/1?page=2&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(LogN)")
 public class FullPrime {
-    //My Time Complexity: O(LogN)
-    //My Space complexity: O(1)
-    static int fullPrime(int N){
+    static int fullPrime(int N) {
         if (!isPrime(N)) {
             return 0;
         }

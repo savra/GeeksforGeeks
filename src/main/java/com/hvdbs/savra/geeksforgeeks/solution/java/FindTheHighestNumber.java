@@ -1,11 +1,11 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.List;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         name = "Find the Highest number",
         difficulty = Difficulty.EASY,
         url = "https://practice.geeksforgeeks.org/problems/find-the-highest-number2259/1?page=1&category=Binary%20Search&difficulty=School,Basic,Easy&status=unsolved&sortBy=accuracy")

@@ -1,13 +1,13 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-@GeeksForGeeksInfo(name = "Reversing the vowels",
+@CodeInfo(name = "Reversing the vowels",
         difficulty = Difficulty.SCHOOL,
         url = "https://practice.geeksforgeeks.org/problems/reversing-the-vowels5304/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions")
 public class ReversingTheVowels {

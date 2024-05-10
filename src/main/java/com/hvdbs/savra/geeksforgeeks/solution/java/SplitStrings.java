@@ -1,19 +1,18 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Split Strings",
-        url = "https://practice.geeksforgeeks.org/problems/split-strings5211/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/split-strings5211/1?page=3&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        spaceComplexity = "O(N)",
+        timeComplexity = "O(N)")
 public class SplitStrings {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     static List<String> splitString(String S) {
         List<String> result = new ArrayList<>();
 

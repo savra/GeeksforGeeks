@@ -1,11 +1,11 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.math.BigInteger;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "BigInteger Multiply",
         url = "https://practice.geeksforgeeks.org/problems/biginteger-multiply/1?page=1&status[]=unsolved&sortBy=accuracy"

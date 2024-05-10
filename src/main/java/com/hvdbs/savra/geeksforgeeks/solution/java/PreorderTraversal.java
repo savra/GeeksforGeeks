@@ -1,13 +1,13 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.BASIC,
         name = "Preorder Traversal",
         url = "https://practice.geeksforgeeks.org/problems/preorder-traversal/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Stack&sortBy=accuracy"

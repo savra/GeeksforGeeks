@@ -1,9 +1,9 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(name = "Sum of Series",
+@CodeInfo(name = "Sum of Series",
         url = "https://practice.geeksforgeeks.org/problems/sum-of-series2811/1?page=1&difficulty",
         difficulty = Difficulty.SCHOOL)
 public class SumOfSeries {

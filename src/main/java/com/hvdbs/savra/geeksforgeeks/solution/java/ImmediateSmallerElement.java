@@ -1,18 +1,16 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        difficulty = Difficulty.BASIC,
+@CodeInfo(difficulty = Difficulty.BASIC,
         name = "Immediate Smaller Element",
-        url = "https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Stack&sortBy=accuracy"
-)
+        url = "https://practice.geeksforgeeks.org/problems/immediate-smaller-element1142/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Stack&sortBy=accuracy",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class ImmediateSmallerElement {
     void immediateSmaller(int arr[], int n) {
         /*
-        //TC: O(N), SC: O(1)
-
         if(n == 1) {
             arr[0] = -1;
         }

@@ -1,11 +1,11 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.Comparator;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimum Cost of ropes",
         url = "https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"

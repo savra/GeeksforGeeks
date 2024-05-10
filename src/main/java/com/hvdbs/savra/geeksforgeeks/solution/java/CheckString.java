@@ -1,20 +1,15 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@GeeksForGeeksInfo(
-        name = "Check String",
+@CodeInfo(name = "Check String",
         difficulty = Difficulty.SCHOOL,
-        url = "https://practice.geeksforgeeks.org/problems/check-string1818/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/check-string1818/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(|S|)")
 public class CheckString {
-    //Expected Time Complexity: O(|S|)
-    //Expected Auxiliary Space: O(1)
-
-    //My Time Complexity: O(|S|)
-    //My Auxiliary Space: O(1)
-    Boolean check (String s){
+    Boolean check(String s) {
         boolean allSame = true;
 
         if (s.length() == 1) {

@@ -1,18 +1,17 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.SCHOOL,
         name = "Number Pattern",
-        url = "https://practice.geeksforgeeks.org/problems/number-pattern0517/1?page=4&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions"
-)
+        url = "https://practice.geeksforgeeks.org/problems/number-pattern0517/1?page=4&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(N)")
 public class NumberPattern {
-    //Time Complexity: O(n^2)
-    //Space complexity: O(n)
     ArrayList<String> numberPattern(int N) {
         ArrayList<String> result = new ArrayList<>();
         StringBuilder sb = new StringBuilder();

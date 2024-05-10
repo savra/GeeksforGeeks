@@ -1,12 +1,12 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.GeeksForGeeksInfo;
-import com.hvdbs.savra.geeksforgeeks.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-@GeeksForGeeksInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Stack using two queues",
         url = "https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy"
