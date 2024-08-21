@@ -18,6 +18,7 @@ public class MinimumElementInBST {
         Node right;
         Node(int data) {
             this.data = data;
+
             left = null;
             right = null;
         }
