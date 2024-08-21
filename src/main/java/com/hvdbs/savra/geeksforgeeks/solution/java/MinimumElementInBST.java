@@ -14,6 +14,7 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 public class MinimumElementInBST {
     private class Node {
         int data;
+
         Node left;
         Node right;
         Node(int data) {
