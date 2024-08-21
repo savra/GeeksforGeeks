@@ -13,7 +13,6 @@ import java.util.Map;
 public class MajorityElement {
     static int majorityElement(int a[], int size) {
         java.util.Map<Integer, Integer> res = new java.util.HashMap<>();
-
         for (int i = 0; i < size; i++) {
             res.put(a[i], res.getOrDefault(a[i], 0) + 1);
         }
