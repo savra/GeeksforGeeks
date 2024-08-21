@@ -9,8 +9,6 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
         spaceComplexity = "O(1)",
         timeComplexity = "O(1)")
 public class MidoriAndChocolates {
-    //My Time Complexity: O(1)
-    //My Space complexity: O(1)
     static long leftShops(long i, long L) {
         return (1L << L) - i;
     }
