@@ -20,6 +20,7 @@ public class MinimumElementInBST {
             this.data = data;
 
             left = null;
+
             right = null;
         }
     }
