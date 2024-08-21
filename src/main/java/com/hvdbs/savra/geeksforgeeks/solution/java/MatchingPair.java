@@ -12,4 +12,5 @@ public class MatchingPair {
     static long find(int N) {
         return N + 1;
     }
+
 }
