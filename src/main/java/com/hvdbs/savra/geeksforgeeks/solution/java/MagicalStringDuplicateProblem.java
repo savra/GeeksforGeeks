@@ -12,6 +12,7 @@ import java.util.Map;
         timeComplexity = "O(N)",
         spaceComplexity = "O(N)")
 public class MagicalStringDuplicateProblem {
+
     static String magicalString(String S) {
         Map<Character, Character> m = new HashMap<>();
 
