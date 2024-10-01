@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
-</details>
-<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -125,6 +118,13 @@
 |Vowel or Not|https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|$O(1)$|$O(1)$
 </details>
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
+</details>
+<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -196,6 +196,7 @@
 |Minimum Cost of ropes|https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MinimumCostOfRopes.java'>Minimum Cost of ropes</a>|$not specified$|$not specified$
 |Occurence of an integer in a Linked List|https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/OccurenceOfAnIntegerInALinkedList.java'>Occurence of an integer in a Linked List</a>|$not specified$|$not specified$
 |Operations on PriorityQueue|https://practice.geeksforgeeks.org/problems/operations-on-priorityqueue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/OperationsOnPriorityQueue.java'>Operations on PriorityQueue</a>|$not specified$|$not specified$
+|Queue Operations|https://www.geeksforgeeks.org/problems/queue-operations/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueOperations.java'>Queue Operations</a>|$O(N)$|$O(N)$
 |Queue using stack|https://practice.geeksforgeeks.org/problems/queue-using-stack/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueUsingStack.java'>Queue using stack</a>|$not specified$|$not specified$
 |Queue using two Stacks|https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueUsingTwoStacks.java'>Queue using two Stacks</a>|$not specified$|$not specified$
 |Reverse a linked list|https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&difficulty[]=-2&difficulty[]=-1&difficulty[]=0&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseALinkedList.java'>Reverse a linked list</a>|$not specified$|$not specified$
