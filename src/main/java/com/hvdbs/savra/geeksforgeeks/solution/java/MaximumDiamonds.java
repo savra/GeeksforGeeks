@@ -14,6 +14,7 @@ import java.util.Queue;
 )
 public class MaximumDiamonds {
     static long maxDiamonds(int[] a, int n, int k) {
+
         Queue<Integer> q = new PriorityQueue<>(Comparator.reverseOrder());
 
         for (int i : a) {

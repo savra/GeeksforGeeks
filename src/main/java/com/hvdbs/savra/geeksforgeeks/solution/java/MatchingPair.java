@@ -9,6 +9,7 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
         url = "https://practice.geeksforgeeks.org/problems/matching-pair5320/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy"
 )
 public class MatchingPair {
+
     static long find(int N) {
         return N + 1;
     }
