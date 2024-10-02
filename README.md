@@ -1,6 +1,13 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
+</details>
+<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -118,13 +125,6 @@
 |Vowel or Not|https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|$O(1)$|$O(1)$
 </details>
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
-</details>
-<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -194,6 +194,7 @@
 |Maximum Diamonds|https://practice.geeksforgeeks.org/problems/chinky-and-diamonds3340/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MaximumDiamonds.java'>Maximum Diamonds</a>|$not specified$|$not specified$
 |Max Level Sum in Binary Tree|https://practice.geeksforgeeks.org/problems/max-level-sum-in-binary-tree--170647/1?page=1&category=Binary%20Search&difficulty=School,Basic,Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MaxLevelSumInBinaryTree.java'>Max Level Sum in Binary Tree</a>|$not specified$|$not specified$
 |Minimum Cost of ropes|https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MinimumCostOfRopes.java'>Minimum Cost of ropes</a>|$not specified$|$not specified$
+|Min sum formed by digits|https://www.geeksforgeeks.org/problems/min-sum-formed-by-digits3551/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MinSumFormedByDigits.java'>Min sum formed by digits</a>|$O(N)$|$O(N * LogN)$
 |Occurence of an integer in a Linked List|https://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/OccurenceOfAnIntegerInALinkedList.java'>Occurence of an integer in a Linked List</a>|$not specified$|$not specified$
 |Operations on PriorityQueue|https://practice.geeksforgeeks.org/problems/operations-on-priorityqueue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/OperationsOnPriorityQueue.java'>Operations on PriorityQueue</a>|$not specified$|$not specified$
 |Queue Operations|https://www.geeksforgeeks.org/problems/queue-operations/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueOperations.java'>Queue Operations</a>|$O(N)$|$O(N)$
