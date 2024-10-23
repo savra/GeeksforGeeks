@@ -1,8 +1,21 @@
 package com.hvdbs.savra.geeksforgeeks.solution.java;
 
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
+
 import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Queue;
 
+@CodeInfo(
+        difficulty = Difficulty.EASY,
+        name = "Next Right Node",
+        url = "https://www.geeksforgeeks.org/problems/next-right-node/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy",
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.LINEAR
+)
 public class NextRightNode {
     static class Node {
         int data;
@@ -16,40 +29,72 @@ public class NextRightNode {
         }
     }
 
-   static Node nextRight(Node root, int key) {
-        Node dummy = new Node(-1);
+    static Node nextRight(Node root, int key) {
+        List<List<Node>> levels = traverseTree(root, key);
 
-        if (root == null || root.data == key) {
-            return dummy;
+        for (int i = 0; i < levels.size(); i++) {
+            List<Node> level = levels.get(i);
+
+            for (int j = 0; j < level.size(); j++) {
+                if (level.get(j).data == key && j < level.size() - 1) {
+                    return level.get(j + 1);
+                }
+            }
         }
 
+        return new Node(-1);
+    }
+
+    static List<List<Node>> traverseTree(Node root, int key) {
         Queue<Node> q = new ArrayDeque<>();
+        List<List<Node>> result = new ArrayList<>();
 
-        do {
-            if (root.left != null) {
-                q.offer(root.left);
-            }
+        if (root == null) {
+            return result;
+        }
 
-            if (root.right != null) {
-                q.offer(root.right);
-            }
+        q.offer(root);
+        boolean wasMatch = false;
 
-            if (!q.isEmpty()) {
-                root = q.poll();
-                if (root == null) {
-                    return dummy;
+        while (!q.isEmpty()) {
+            int levelSize = q.size();
+            List<Node> currLevel = new ArrayList<>();
+
+            for (int i = 0; i < levelSize; i++) {
+                Node currNode = q.poll();
+                currLevel.add(currNode);
+
+                if (currNode.left != null) {
+                    q.offer(currNode.left);
                 }
 
-                if (root.data == key) {
-                    return q.poll();
+                if (currNode.right != null) {
+                    q.offer(currNode.right);
+                }
+
+                if (currNode.data == key) {
+                    wasMatch = true;
                 }
             }
-        } while (!q.isEmpty());
 
-        return dummy;
+            result.add(currLevel);
+
+            if (wasMatch) {
+                break;
+            }
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
-        nextRight(new Node(1), 1);
+        Node root = new Node(4);
+        root.left = new Node(1);
+        root.right = new Node(5);
+        root.left.right = new Node(3);
+        root.left.right.left = new Node(2);
+        root.right.right = new Node(8);
+        root.right.right.left = new Node(6);
+        nextRight(root, 3);
     }
 }
