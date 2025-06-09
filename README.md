@@ -1,6 +1,13 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
+</details>
+<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -149,6 +156,7 @@
 |Midori and chocolates|https://practice.geeksforgeeks.org/problems/midori-and-chocolates2438/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MidoriAndChocolates.java'>Midori and chocolates</a>|$O(1)$|$O(1)$
 |Minimum element in BST|https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1?page=1&category=Tree&difficulty=Basic&status=unsolved&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MinimumElementInBST.java'>Minimum element in BST</a>|$O(N)$|$O(N)$
 |Modular Node|https://practice.geeksforgeeks.org/problems/modular-node/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ModularNode.java'>Modular Node</a>|$not specified$|$not specified$
+|Multi Parameters Lambda Expression|https://www.geeksforgeeks.org/problems/multi-parameters-lambda-expression/1?page=1&category=Arrays,Java&difficulty=Basic&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MultiParametersLambdaExpression.java'>Multi Parameters Lambda Expression</a>|$O(1)$|$O(1)$
 |Node at a given index in linked list|https://practice.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/NodeAtAGivenIndexInLinkedList.java'>Node at a given index in linked list</a>|$O(N)$|$O(1)$
 |Pairwise Consecutive Elements|https://practice.geeksforgeeks.org/problems/pairwise-consecutive-elements/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Stack&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PairwiseConsecutiveElements.java'>Pairwise Consecutive Elements</a>|$not specified$|$not specified$
 |Pattern 13|https://practice.geeksforgeeks.org/problems/triangle-pattern-1661718712/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/Pattern13.java'>Pattern 13</a>|$not specified$|$not specified$
@@ -198,11 +206,4 @@
 |Reverse First K elements of Queue|https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseFirstKElementsOfQueue.java'>Reverse First K elements of Queue</a>|$not specified$|$not specified$
 |Stack using two queues|https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/StackUsingTwoQueues.java'>Stack using two queues</a>|$not specified$|$not specified$
 |Ticket Counter|https://www.geeksforgeeks.org/problems/ticket-counter-2731/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/TicketCounter.java'>Ticket Counter</a>|$O(N)$|$O(N)$
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
 </details>
