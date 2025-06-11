@@ -42,6 +42,7 @@
 |Print first letter of every word in the string|https://practice.geeksforgeeks.org/problems/print-first-letter-of-every-word-in-the-string3632/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PrintFirstLetterOfEveryWordInTheString.java'>Print first letter of every word in the string</a>|$not specified$|$not specified$
 |Print Linked List elements|https://practice.geeksforgeeks.org/problems/print-linked-list-elements/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PrintLinkedListElements.java'>Print Linked List elements</a>|$not specified$|$not specified$
 |PriorityQueue Inserion - 1|https://www.geeksforgeeks.org/problems/priorityqueue-inserion/1?page=1&category=Arrays,Java&difficulty=Basic&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PriorityQueueInserion1.java'>PriorityQueue Inserion - 1</a>|$O(N)$|$O(N)$
+|PriorityQueueInserion2|https://www.geeksforgeeks.org/problems/priorityqueue-inserion-2/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/PriorityQueueInserion2.java'>PriorityQueueInserion2</a>|$O(N)$|$O(N)$
 |Queue Push & Pop|https://practice.geeksforgeeks.org/problems/queue-designer/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueuePushPop.java'>Queue Push & Pop</a>|$not specified$|$not specified$
 |Queue Reversal|https://practice.geeksforgeeks.org/problems/queue-reversal/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/QueueReversal.java'>Queue Reversal</a>|$O(N)$|$O(N)$
 |Red OR Green|https://practice.geeksforgeeks.org/problems/red-or-green5711/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/RedOrGreen.java'>Red OR Green</a>|$not specified$|$not specified$
@@ -85,6 +86,13 @@
 |Reverse First K elements of Queue|https://practice.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ReverseFirstKElementsOfQueue.java'>Reverse First K elements of Queue</a>|$not specified$|$not specified$
 |Stack using two queues|https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1?page=1&difficulty[]=0&status[]=unsolved&category[]=Queue&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/StackUsingTwoQueues.java'>Stack using two queues</a>|$not specified$|$not specified$
 |Ticket Counter|https://www.geeksforgeeks.org/problems/ticket-counter-2731/1?page=1&category=Queue&difficulty=Easy&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/TicketCounter.java'>Ticket Counter</a>|$O(N)$|$O(N)$
+</details>
+<details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
 </details>
 <details>
 <summary>SCHOOL</summary>
@@ -202,11 +210,4 @@
 |Upper case conversion|https://practice.geeksforgeeks.org/problems/upper-case-conversion5419/1?page=2&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UpperCaseConversion.java'>Upper case conversion</a>|$not specified$|$not specified$
 |Value equal to index value|https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1?page=1&difficulty[]=-2&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ValueEqualToIndexValue.java'>Value equal to index value</a>|$not specified$|$not specified$
 |Vowel or Not|https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|$O(1)$|$O(1)$
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
 </details>
