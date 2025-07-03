@@ -15,14 +15,14 @@ import java.util.ArrayList;
 public class MaxAndMinInArrayList {
     public static int maximumElement(ArrayList<Integer> arr) {
         return arr.stream()
-                .mapToInt(value -> value.intValue())
+                .mapToInt(Integer::intValue)
                 .max()
                 .getAsInt();
     }
 
     public static int minimumElement(ArrayList<Integer> arr) {
         return arr.stream()
-                .mapToInt(value -> value.intValue())
+                .mapToInt(Integer::intValue)
                 .min()
                 .getAsInt();
     }
