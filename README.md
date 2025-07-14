@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
-</details>
-<details>
 <summary>SCHOOL</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -144,6 +137,7 @@
 |Count zeros in a sorted matrix|https://practice.geeksforgeeks.org/problems/count-zeros-in-a-sorted-matrix/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/CountZerosInASortedMatrix.java'>Count zeros in a sorted matrix</a>|$O(N^2)$|$O(1)$
 |Delete Alternate Nodes|https://practice.geeksforgeeks.org/problems/delete-alternate-nodes/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/DeleteAlternateNodes.java'>Delete Alternate Nodes</a>|$not specified$|$not specified$
 |Delete node in Doubly Linked List|https://practice.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1?page=1&difficulty[]=-1&status[]=unsolved&category[]=Linked%20List&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/DeleteNodeInDoublyLinkedList.java'>Delete node in Doubly Linked List</a>|$not specified$|$not specified$
+|Distinct Sorted|https://www.geeksforgeeks.org/problems/distinct-sorted--124713/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/DistinctSorted.java'>Distinct Sorted</a>|$O(N * LogN)$|$O(N)$
 |Equals Method|https://www.geeksforgeeks.org/problems/equals-method/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/EqualsMethod.java'>Equals Method</a>|$O(N)$|$O(1)$
 |Fill LinkedList|https://www.geeksforgeeks.org/problems/fill-linkedlist/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FillLinkedList.java'>Fill LinkedList</a>|$O(N)$|$O(1)$
 |Fill Method|https://www.geeksforgeeks.org/problems/fill-method/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/FillMethod.java'>Fill Method</a>|$O(1)$|$O(1)$
@@ -204,6 +198,13 @@
 |Sum of Binary Tree|https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|$O(N)$|$O(N)$
 |Sum of N Numbers|https://www.geeksforgeeks.org/problems/sum-of-n-number/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfNNumbers.java'>Sum of N Numbers</a>|$O(1)$|$O(1)$
 |Union of two arrays|https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|$O(N + M)$|$O(N + M)$
+</details>
+<details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
 </details>
 <details>
 <summary>EASY</summary>
