@@ -118,6 +118,13 @@
 |Vowel or Not|https://practice.geeksforgeeks.org/problems/vowel-or-not0831/1?page=1&difficulty[]=-2&status[]=unsolved&status[]=attempted&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/VowelOrNot.java'>Vowel or Not</a>|$O(1)$|$O(1)$
 </details>
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
+</details>
+<details>
 <summary>BASIC</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -126,6 +133,7 @@
 |Arithmetic Operators|https://www.geeksforgeeks.org/problems/arithmetic-operators-1605594922/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ArithmeticOperators.java'>Arithmetic Operators</a>|$O(1)$|$O(1)$
 |Array insert at end|https://www.geeksforgeeks.org/problems/array-insert-at-end/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/ArrayInsertAtEnd.java'>Array insert at end</a>|$O(1)$|$O(1)$
 |Binary Search|https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BinarySearch.java'>Binary Search</a>|$O(LogN)$|$O(1)$
+|Binary Search on ArrayList|https://www.geeksforgeeks.org/problems/binary-search-on-arraylist/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BinarySearchOnArrayList.java'>Binary Search on ArrayList</a>|$LogN$|$LogN$
 |Bit Difference|https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BitDifference.java'>Bit Difference</a>|$not specified$|$not specified$
 |Bitwise Right Shift|https://www.geeksforgeeks.org/problems/bitwise-right-shift/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BitwiseRightShift.java'>Bitwise Right Shift</a>|$O(1)$|$O(1)$
 |Bitwise Right Shift|https://www.geeksforgeeks.org/problems/bitwise-right-shift--140107/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/BitwiseRightShift2.java'>Bitwise Right Shift</a>|$O(1)$|$O(1)$
@@ -198,13 +206,6 @@
 |Sum of Binary Tree|https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1?page=1&difficulty[]=-1&status[]=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfBinaryTree.java'>Sum of Binary Tree</a>|$O(N)$|$O(N)$
 |Sum of N Numbers|https://www.geeksforgeeks.org/problems/sum-of-n-number/1?page=1&category=Arrays,Java&difficulty=Basic&status=unsolved&sortBy=accuracy|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/SumOfNNumbers.java'>Sum of N Numbers</a>|$O(1)$|$O(1)$
 |Union of two arrays|https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=1&difficulty[]=-1&category[]=Data%20Structures&category[]=Arrays&sortBy=submissions|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/UnionOfTwoArrays.java'>Union of two arrays</a>|$O(N + M)$|$O(N + M)$
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Majority Element|https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab|<a href='https://github.com/savra/GeeksforGeeks/tree/master/src/main/java/com/hvdbs/savra/geeksforgeeks/solution/java/MajorityElement.java'>Majority Element</a>|$O(N)$|$O(N)$
 </details>
 <details>
 <summary>EASY</summary>
