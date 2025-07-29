@@ -22,7 +22,7 @@ public class SortedFrequency {
             result.put(arr[i], result.getOrDefault(arr[i], 0) + 1);
         }
 
-        for (Map.Entry e : result.entrySet()) {
+        for (Map.Entry<Integer, Integer> e : result.entrySet()) {
             System.out.println(e.getKey() + " " + e.getValue());
         }
     }
