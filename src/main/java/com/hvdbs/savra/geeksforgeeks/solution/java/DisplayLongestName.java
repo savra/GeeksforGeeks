@@ -11,10 +11,10 @@ public class DisplayLongestName {
         int maxLength = 0;
         String maxName = "";
 
-        for (int i = 0; i < names.length; i++) {
-            if (names[i].length() > maxLength) {
-                maxLength = names[i].length();
-                maxName = names[i];
+        for (String name : names) {
+            if (name.length() > maxLength) {
+                maxLength = name.length();
+                maxName = name;
             }
         }
 
